@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .col1{
+      width: 70%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .col2{
+      width: 90%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  /* Clearfix (clear floats) */
+  .rows::after {
+    content: "";
+    clear: both;
+    
+  }
+
+  img{
+      margin-left: 80px;
+      margin-right: 80px;
+  }
+
+  img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+  }
+
+  .logos{
+      width: 80%;
+      margin: auto;
+      align-items: center;
+  }
