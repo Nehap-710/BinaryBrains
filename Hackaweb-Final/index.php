@@ -1,7 +1,7 @@
 <?php
 include('smtp/PHPMailerAutoload.php');
-$html='Msg';
-echo smtp_mailer('nehapattankar@gmail.com','subject',$html);
+$html='Here is the application form to be filled for recruitmemt at the company: https://docs.google.com/forms/d/e/1FAIpQLSfBLrwoAku3c6kcJAuJwJ-sy5yiOXiJO34Z8sNE37pQgm07gg/viewform?usp=sf_link';
+echo smtp_mailer('nayaktripti0@gmail.com','subject',$html);
 function smtp_mailer($to,$subject, $msg){
 	$mail = new PHPMailer(); 
 	$mail->SMTPDebug  = 3;
@@ -12,9 +12,9 @@ function smtp_mailer($to,$subject, $msg){
 	$mail->Port = 587; 
 	$mail->IsHTML(true);
 	$mail->CharSet = 'UTF-8';
-	$mail->Username = "nayaktripti0@gmail.com";
-	$mail->Password = "9833874735*";
-	$mail->SetFrom("nayaktripti0@gmail.com");
+	$mail->Username = "nehapattankar@gmail.com";
+	$mail->Password = "Pid192088#";
+	$mail->SetFrom("nehapattankar@gmail.com");
 	$mail->Subject = $subject;
 	$mail->Body =$msg;
 	$mail->AddAddress($to);
@@ -26,8 +26,10 @@ function smtp_mailer($to,$subject, $msg){
 	if(!$mail->Send()){
 		echo $mail->ErrorInfo;
 	}else{
-		return 'Sent';
+		
 		header("Location: SE.php");
+		return 'Sent';
+		
 	}
 }
 ?>
