@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@400;500;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/*navbar*/
+
+.body{
+    position: relative;
+    background-color: rgb(143, 136, 136);
+}
+
+.nav{
+    display: flex;
+    padding-left: 30px;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav>.logo{
+    color: black;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 500px;
+}
+
+.menu >li{
+    margin: 0px 35px;
+}
+.menu>li>a{
+    text-decoration: none;
+    color: blue;
+}
+
+/*intro*/
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.intro>div.left{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 100px;
+    width: 800px;
+    padding-right: 80px;
+}
+
+.intro>div.right{
+    margin-left: 0px;
+}
+
+.intro>div.right>img{
+    margin-top: 50px;
+    border-radius: 20px;
+    animation-name: slide-right;
+    animation-duration: 2s;
+}
+
+
+div.quote{
+    font-family: 'Anton', sans-serif;
+    font-size: 65px;
+}
+
+/*about*/
+#about{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 90px;
+    margin-left: 50px;
+    margin-left: 50px;
+}
+
+#about>div.right{
+    padding: 50px;
+    padding-left: 70px;
+    width: 600px;
+}
+
+#about>div.right>.webname{
+    font-family: 'Anton', sans-serif;
+    font-size: 55px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#about>div.right>.content, #about>div.right>.greet{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+#about>.left>img{
+    border-radius: 20px;
+}
+
+/*company*/
+
+.companies{
+  margin-top: 80px;
+  font-size: 25px;
+  font-family: 'Roboto Slab', serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.companies>div.heading{
+    text-align: center;
+}
+
+.logos{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.logos>img{
+    padding: 60px;
+}
+
+.logos>a:hover{
+  cursor: pointer;
+  box-shadow: 0 0 4px black;
+}
+
+.companies>a{
+    font-size: 20px;
+    border-radius: 8px;
+    border:solid blue 2px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 570px;
+    margin-top: 40px;
+}
+
+/*t&p*/
+.container
+ {
+    max-width: 950px;
+    width: 100%;
+    overflow: hidden;
+    padding: 80px 0;
+    margin-left: 200px;
+  }
+  
+  .container .main-card{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200%;
+    transition: 1s;
+  }
+
+  #two:checked ~ .main-card{
+    margin-left: -100%;
+  }
+  .container .main-card .cards{
+    width: calc(100% / 2 - 10px);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .main-card .cards .card{
+    width: calc(100% / 3 - 10px);
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease;
+  }
+  .main-card .cards .card:hover{
+    transform: translateY(-15px);
+  }
+  .cards .card .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .cards .card .content .img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    padding: 3px;
+    margin-bottom: 14px;
+    overflow-y: hidden;
+  }
+  .card .content .img img{
+    height: inherit;
+    width: inherit;
+    border: 3px solid #ffff;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .card .content .name{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .card .content .job{
+    font-size: 20px;
+    color: blue;
+  }
+  .card .content .media-icons{
+    margin-top: 10px;
+    display: flex;
+  
+  }
+  .media-icons a{
+    text-align: center;
+    line-height: 33px;
+    height: 35px;
+    width: 35px;
+    margin: 0 4px;
+    font-size: 14px;
+    color: #FFF;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background: blue;
+    transition: all 0.3s ease;
+  }
+  .media-icons a:hover{
+    color: blue;
+    background-color: #fff;
+    border-color: blue;
+  }
+   .container .button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  .button label{
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+    background: blue;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  .button label.active{
+    width: 35px;
+  }
+  #one:checked ~ .button .one{
+    width: 35px;
+  }
+  #one:checked ~ .button .two{
+    width: 15px;
+  }
+  #two:checked ~ .button .one{
+    width: 15px;
+  }
+  #two:checked ~ .button .two{
+    width: 35px;
+  }
+  input[type="radio"]{
+    display: none;
+  }
+
+
+  @media (max-width: 768px) {
+    .main-card .cards .card{
+      margin: 20px 0 10px 0;
+      width: calc(100% / 2 - 10px);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .main-card .cards .card{
+      /* margin: 20px 0 10px 0; */
+      width: 100%;
+    }
+  }
+
+  .container>a{
+    font-size: 20px;
+    border-radius: 8px;
+    border:solid blue 2px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 440px;
+  }
+
+  .container>.button{
+      margin-bottom: 50px;
+  }
+
+  .container>.heading{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    text-align: center;
+  }
+
+
+/*contact*/
+#contact{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    font-size: 25px;
+}
+
+#contact>.left{
+    background-color: white;
+    flex: 1;
+    padding: 80px;
+}
+
+#contact>.right{
+    flex: 1;
+    color: white;
+    padding: 80px;
+}
+
+#contact>.right>a{
+    color: white;
+    text-decoration: none;
+}
+
+#contact>.left>:nth-child(1){
+    font-family: 'Anton', sans-serif;
+    font-size: 55px;
+}
+
+#contact>.right>:nth-child(1){
+    font-family: 'Anton', sans-serif;
+    font-size: 55px;
+}
+
+
+
+/*animations*/
+@keyframes slide-right {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
