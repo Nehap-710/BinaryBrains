@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neha Pattankar- Profile </title>
+    <title>Tripti Nayak- Profile </title>
     <style></style>
 </head>
 <body>
@@ -22,7 +22,7 @@
       <div class="col-lg-4">
         <div class="card shadow-sm">
           <div class="card-header bg-transparent text-center">
-            <h3>Neha Pattankar</h3>
+            <h3>Tripti Nayak</h3>
           </div>
         </div>
       </div>
