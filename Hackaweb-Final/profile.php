@@ -11,9 +11,9 @@
     <div class="container">
         <div class="Heading">Profile Details</div>
         <div class="details">
-            <div class="value">Name: Neha Pattankar</div>
-            <div class="value">Email: nehapattankar@gmail.com</div>
-            <div class="value">Contact No: 9619838858</div>
+            <div class="value">Name: Tripti Nayak</div>
+            <div class="value">Email: nayaktripti0@gmail.com</div>
+            <div class="value">Contact No: 8850031378</div>
             <div class="value">Name of College: KGEC</div>
             <div class="value">Name of person for Contact: Tripti Nayak</div>
             <div class="value">Contact of person for Contact: 8850031378</div>
