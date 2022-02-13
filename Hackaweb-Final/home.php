@@ -106,7 +106,7 @@
                 <img src="images/KGEC.png" >
                </div>
                <div class="details">
-                 <div class="name">Neha Pattankar</div>
+                 <div class="name">Tripti Nayak</div>
                  <div class="job">KGEC</div>
                </div>
              </div>
@@ -120,7 +120,7 @@
                  <img src="images/LDCE.png" >
                </div>
                <div class="details">
-                 <div class="name">Tripti Nayak</div>
+                 <div class="name">Anushree Poojary</div>
                  <div class="job">LDCE</div>
                </div>
              </div>
