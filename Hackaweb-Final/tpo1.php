@@ -36,7 +36,7 @@
               <tr>
                 <th width="30%">Name</th>
                 <td width="2%">:</td>
-                <td>Neha Pattankar</td>
+                <td>Tripti Nayak</td>
               </tr>
               <tr>
                 <th width="30%">College Name	</th>
