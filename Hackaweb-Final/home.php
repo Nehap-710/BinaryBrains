@@ -16,7 +16,7 @@
 <body>
     <!--navbar-->
     <div class="nav navbar-default navbar-fixed-top wow zoomIn">
-        <div class="logo">WEBSITE</div>
+        <div class="logo">JobReady</div>
             <ul class="menu">
             <li><a href="login.php">Login/signup</a></li>
             <li><a href="#about">About</a></li>
