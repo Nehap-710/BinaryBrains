@@ -43,7 +43,7 @@
        </div>
        <div class="right">
         <div class="greet">Hello</div>
-        <div class="webname">WEBSITE</div >
+        <div class="webname">JobReady</div >
         <div class="content">We connect T&p cells to companies for better flow of communication.</div>
   </div>
     </div>
@@ -107,7 +107,7 @@
                 <img src="images/KGEC.png" >
                </div>
                <div class="details">
-                 <div class="name">Neha Pattankar</div>
+                 <div class="name">Tripti Nayak</div>
                  <div class="job">KGEC</div>
                </div>
              </div>
@@ -121,7 +121,7 @@
                  <img src="images/LDCE.png" >
                </div>
                <div class="details">
-                 <div class="name">Tripti Nayak</div>
+                 <div class="name">Anushree Poojary</div>
                  <div class="job">LDCE</div>
                </div>
              </div>
