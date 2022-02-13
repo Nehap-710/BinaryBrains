@@ -11,7 +11,7 @@
 <body>
     <!--navbar-->
     <div class="nav ">
-        <div class="logo">WEBSITE</div>
+        <div class="logo">JobReady</div>
     </div>
     <!--header-->
     <div class="head">
